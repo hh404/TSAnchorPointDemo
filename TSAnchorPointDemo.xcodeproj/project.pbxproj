@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC565A0C1E1B9C5600703F33 /* AnchorPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC565A0B1E1B9C5600703F33 /* AnchorPointViewController.m */; };
+		EC9F6C171E1604DD009DFDC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F6C161E1604DD009DFDC3 /* main.m */; };
+		EC9F6C1A1E1604DD009DFDC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F6C191E1604DD009DFDC3 /* AppDelegate.m */; };
+		EC9F6C1D1E1604DD009DFDC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F6C1C1E1604DD009DFDC3 /* ViewController.m */; };
+		EC9F6C201E1604DD009DFDC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9F6C1E1E1604DD009DFDC3 /* Main.storyboard */; };
+		EC9F6C221E1604DD009DFDC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F6C211E1604DD009DFDC3 /* Assets.xcassets */; };
+		EC9F6C251E1604DD009DFDC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9F6C231E1604DD009DFDC3 /* LaunchScreen.storyboard */; };
+		EC9F6C2E1E1630E1009DFDC3 /* CustomDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F6C2D1E1630E1009DFDC3 /* CustomDrawView.m */; };
+		EC9F6C301E164652009DFDC3 /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9F6C2F1E164652009DFDC3 /* loading@2x.png */; };
+		EC9F6C331E1646DA009DFDC3 /* DrawRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F6C321E1646DA009DFDC3 /* DrawRectViewController.m */; };
+		EC9F6C361E1646F1009DFDC3 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F6C351E1646F1009DFDC3 /* HomePageViewController.m */; };
+		EC9F6E901E166EA2009DFDC3 /* hjw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9F6E8F1E166EA2009DFDC3 /* hjw@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC565A0A1E1B9C5600703F33 /* AnchorPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorPointViewController.h; sourceTree = "<group>"; };
+		EC565A0B1E1B9C5600703F33 /* AnchorPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchorPointViewController.m; sourceTree = "<group>"; };
+		EC9F6C121E1604DD009DFDC3 /* TSAnchorPointDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSAnchorPointDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9F6C161E1604DD009DFDC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC9F6C181E1604DD009DFDC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC9F6C191E1604DD009DFDC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC9F6C1B1E1604DD009DFDC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC9F6C1C1E1604DD009DFDC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC9F6C1F1E1604DD009DFDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC9F6C211E1604DD009DFDC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9F6C241E1604DD009DFDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC9F6C261E1604DD009DFDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9F6C2C1E1630E1009DFDC3 /* CustomDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDrawView.h; sourceTree = "<group>"; };
+		EC9F6C2D1E1630E1009DFDC3 /* CustomDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDrawView.m; sourceTree = "<group>"; };
+		EC9F6C2F1E164652009DFDC3 /* loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading@2x.png"; sourceTree = "<group>"; };
+		EC9F6C311E1646DA009DFDC3 /* DrawRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectViewController.h; sourceTree = "<group>"; };
+		EC9F6C321E1646DA009DFDC3 /* DrawRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectViewController.m; sourceTree = "<group>"; };
+		EC9F6C341E1646F1009DFDC3 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		EC9F6C351E1646F1009DFDC3 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		EC9F6E8F1E166EA2009DFDC3 /* hjw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hjw@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9F6C0F1E1604DD009DFDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9F6C091E1604DD009DFDC3 = {
+			isa = PBXGroup;
+			children = (
+				EC9F6C141E1604DD009DFDC3 /* TSAnchorPointDemo */,
+				EC9F6C131E1604DD009DFDC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9F6C131E1604DD009DFDC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9F6C121E1604DD009DFDC3 /* TSAnchorPointDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9F6C141E1604DD009DFDC3 /* TSAnchorPointDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC9F6E8F1E166EA2009DFDC3 /* hjw@2x.png */,
+				EC9F6C2F1E164652009DFDC3 /* loading@2x.png */,
+				EC9F6C181E1604DD009DFDC3 /* AppDelegate.h */,
+				EC9F6C191E1604DD009DFDC3 /* AppDelegate.m */,
+				EC9F6C1B1E1604DD009DFDC3 /* ViewController.h */,
+				EC9F6C1C1E1604DD009DFDC3 /* ViewController.m */,
+				EC9F6C1E1E1604DD009DFDC3 /* Main.storyboard */,
+				EC9F6C211E1604DD009DFDC3 /* Assets.xcassets */,
+				EC9F6C231E1604DD009DFDC3 /* LaunchScreen.storyboard */,
+				EC9F6C261E1604DD009DFDC3 /* Info.plist */,
+				EC9F6C151E1604DD009DFDC3 /* Supporting Files */,
+				EC9F6C2C1E1630E1009DFDC3 /* CustomDrawView.h */,
+				EC9F6C2D1E1630E1009DFDC3 /* CustomDrawView.m */,
+				EC9F6C311E1646DA009DFDC3 /* DrawRectViewController.h */,
+				EC9F6C321E1646DA009DFDC3 /* DrawRectViewController.m */,
+				EC9F6C341E1646F1009DFDC3 /* HomePageViewController.h */,
+				EC9F6C351E1646F1009DFDC3 /* HomePageViewController.m */,
+				EC565A0A1E1B9C5600703F33 /* AnchorPointViewController.h */,
+				EC565A0B1E1B9C5600703F33 /* AnchorPointViewController.m */,
+			);
+			path = TSAnchorPointDemo;
+			sourceTree = "<group>";
+		};
+		EC9F6C151E1604DD009DFDC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9F6C161E1604DD009DFDC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9F6C111E1604DD009DFDC3 /* TSAnchorPointDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9F6C291E1604DD009DFDC3 /* Build configuration list for PBXNativeTarget "TSAnchorPointDemo" */;
+			buildPhases = (
+				EC9F6C0E1E1604DD009DFDC3 /* Sources */,
+				EC9F6C0F1E1604DD009DFDC3 /* Frameworks */,
+				EC9F6C101E1604DD009DFDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSAnchorPointDemo;
+			productName = TSAnchorPointDemo;
+			productReference = EC9F6C121E1604DD009DFDC3 /* TSAnchorPointDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9F6C0A1E1604DD009DFDC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = huangjianwu;
+				TargetAttributes = {
+					EC9F6C111E1604DD009DFDC3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EC9F6C0D1E1604DD009DFDC3 /* Build configuration list for PBXProject "TSAnchorPointDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9F6C091E1604DD009DFDC3;
+			productRefGroup = EC9F6C131E1604DD009DFDC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9F6C111E1604DD009DFDC3 /* TSAnchorPointDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9F6C101E1604DD009DFDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9F6C251E1604DD009DFDC3 /* LaunchScreen.storyboard in Resources */,
+				EC9F6C301E164652009DFDC3 /* loading@2x.png in Resources */,
+				EC9F6C221E1604DD009DFDC3 /* Assets.xcassets in Resources */,
+				EC9F6C201E1604DD009DFDC3 /* Main.storyboard in Resources */,
+				EC9F6E901E166EA2009DFDC3 /* hjw@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9F6C0E1E1604DD009DFDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9F6C1D1E1604DD009DFDC3 /* ViewController.m in Sources */,
+				EC9F6C331E1646DA009DFDC3 /* DrawRectViewController.m in Sources */,
+				EC9F6C361E1646F1009DFDC3 /* HomePageViewController.m in Sources */,
+				EC565A0C1E1B9C5600703F33 /* AnchorPointViewController.m in Sources */,
+				EC9F6C1A1E1604DD009DFDC3 /* AppDelegate.m in Sources */,
+				EC9F6C171E1604DD009DFDC3 /* main.m in Sources */,
+				EC9F6C2E1E1630E1009DFDC3 /* CustomDrawView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC9F6C1E1E1604DD009DFDC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9F6C1F1E1604DD009DFDC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC9F6C231E1604DD009DFDC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9F6C241E1604DD009DFDC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9F6C271E1604DD009DFDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9F6C281E1604DD009DFDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9F6C2A1E1604DD009DFDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSAnchorPointDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.TSAnchorPointDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC9F6C2B1E1604DD009DFDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSAnchorPointDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.TSAnchorPointDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9F6C0D1E1604DD009DFDC3 /* Build configuration list for PBXProject "TSAnchorPointDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9F6C271E1604DD009DFDC3 /* Debug */,
+				EC9F6C281E1604DD009DFDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9F6C291E1604DD009DFDC3 /* Build configuration list for PBXNativeTarget "TSAnchorPointDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9F6C2A1E1604DD009DFDC3 /* Debug */,
+				EC9F6C2B1E1604DD009DFDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC9F6C0A1E1604DD009DFDC3 /* Project object */;
+}
